@@ -21,13 +21,6 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       title: 'Welcome to Flutter',
       home: Scaffold(
-//        appBar: PreferredSize(
-//          preferredSize: Size.fromHeight(25.0), // here the desired height
-//          child: AppBar(
-//            centerTitle: false,
-//            backgroundColor: physioColour,
-//          ),
-//        ),
         body: WillPopScope(
           onWillPop: () async {
             setState(() {
