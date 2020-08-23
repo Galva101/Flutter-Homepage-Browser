@@ -87,7 +87,6 @@ class _MyAppState extends State<MyApp> {
                           onPressed: () {
                             controller.data.loadUrl("https://www.stadlerphysio.org/");
                             setState(() {
-//                              loading=true;
                             });
                           },
                         );
@@ -108,7 +107,6 @@ class _MyAppState extends State<MyApp> {
                           onPressed: () {
                             controller.data.loadUrl("https://www.stadlerphysio.org/team");
                             setState(() {
-//                              loading=true;
                             });
                           },
                         );
@@ -129,7 +127,6 @@ class _MyAppState extends State<MyApp> {
                           onPressed: () {
                             controller.data.loadUrl("https://www.stadlerphysio.org/contact-us");
                             setState(() {
-//                              loading=true;
                             });
                           },
                         );
